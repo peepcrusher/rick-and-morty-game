@@ -4,24 +4,53 @@
 <head>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<h1> Rick and Morty Money Troubles!</h1>
+    <h1 class="text-center text-white"> Rick needs enough money to go to Blitz and Chitz!!</h1>
+    <div class="container bg-secondary">
+        <div class="row">
+        <h3 id="computer" class="col-12 text-center">Match this!</h3>
+        </div>
+        <div class="row">
+        <h3 id="win-screen" class="col-12 text-center"></h3>
+        </div>
+        <h3 id="wins" class="col-3 text-center">Wins: </h3>
+        <h3 id="losses" class="col-3 text-center">Losses: </h3>
+    <div class = "row">
+    <h4 id="score" class="bg-secondary col-12 text-center"> Score: </h4>;
+    </div>
+    <div class="row">
+        <h3 class="col-3 text-center">Schmeckles</h3>
+        <h3 class="col-3 text-center">Flurbos</h3>
+        <h3 class="col-3 text-center">Smidgens</h3>
+        <h3 class="col-3 text-center">Brapples</h3>
+    </div>
+    <div class="row">
+
+        <img src="assets/images/Schmeckles.png" id="smeckles" class="col-3 h-25">
+        <img src="assets/images/flurbos.jpg" id="flurbos" class="col-3 h-25">
+        <img src="assets/images/Smidgen.jpg" id="smidgens" class="col-3 h-25">
+        <img src="assets/images/Brapples.jpg" id="grepples" class="col-3 h-25">
+    </div>
+    <div class="row">
+        <h5 class="col-12 text-center">Instructions:</h5>
+        <p class="col-12">Help rick get enough money to spend all day at Blitz and Chitz!</p>
+        <p class="col-12">Each form of money represents a different value. Click on the pictures of the different money to gather it. </p>
+        <p class="col-12">Match the exact number needed, because Rick is lazy and doesn't want to do any extra work.</p>
+    </div>
+    </div>
 
 
-<p id="smeckles">Smeckles</p>
-<img id= "flurbos" src = "">
-<img id= "smidgens" src =  "">
-<img id= "grepples" src="">
+    <p id="win-screen"></p>
 
-<p id= "win-screen"></p>
-
-<p id= "wins"></p>
-<p id= "losses"></p>
-<script src = "assets/javascript/javascript.js"></script>
+    <p id="wins"></p>
+    <p id="losses"></p>
+    <script src="assets/javascript/javascript.js"></script>
 </body>
 
 </html>
